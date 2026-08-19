@@ -6,6 +6,8 @@ Those official apps require a cloud account, bundle a full ad-mediation SDK stac
 
 OpenWatch replaces that entirely. It talks directly to the watch over Bluetooth LE using the reverse-engineered wire protocol, does everything on-device, and sends nothing anywhere.
 
+**[Download the latest APK](https://github.com/mehranshahmiri/openwatch-LY736D/releases/latest)** — sideload it directly, no Play Store needed. (Note: the release APK ships with the custom watch face feature disabled — see [Enabling the custom watch face](#enabling-the-custom-watch-face) below.)
+
 Built by reverse-engineering the LaxaFit Pro APK (decompiled with jadx) and validating every command against real BLE traffic captured from the official app's own debug logging — not guesswork. See [Protocol notes](#protocol-notes) below.
 
 ## Features
